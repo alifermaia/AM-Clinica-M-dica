@@ -1,0 +1,308 @@
+:root{
+    --cinzafonte: rgb(61, 61, 61);
+}
+
+main{
+    background-color: rgb(247, 247, 247);
+    padding: 10px 6vw 10px 6vw;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.data-consulta{
+    font-size: 23px;
+    color: var(--cinzafonte);
+    margin-block: 30px;
+}
+
+.container-contatos-pacientes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bloco-contatos-pacientes{
+    width: 28vw;
+    height: 30vh;
+
+    border: 1px solid silver;
+    margin-block: 30px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+
+    background-color: white;
+    color: var(--cinzafonte);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bloco-contatos-pacientes:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.2s;
+}
+
+.info-pacientes{
+    border-bottom: 1px solid var(--cinzafonte);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 25px;
+}
+
+.info-pacientes-img-nome{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-pacientes-img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.info-pacientes-nome{
+    line-height: 1.5;
+}
+
+.info-pacientes a img:hover{
+    transform: scale(1.1);
+}
+
+span img{
+    margin-right: 5px;
+}
+
+.ligacao-paciente{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ligacao-paciente button{
+    padding: 15px;
+    border-radius: 5px;
+
+    font-size: 15px;
+
+}
+
+.ligacao-paciente .endereco{
+    width: 100%;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+}
+
+.ligacao-paciente .endereco:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(107, 165, 253);
+    background-color: rgb(107, 165, 253);
+    transform: scale(0.98);
+    transition-duration: 0.2s;
+}
+
+.ligacao-audio{
+    background-color: white;
+    color: var(--cinzafonte);
+    border: 1px solid var(--cinzafonte);
+}
+
+.ligacao-audio:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px silver;
+    background-color: silver;
+    transform: scale(0.98);
+    transition-duration: 0.2s;
+}
+
+.ligacao-video{
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.ligacao-video:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(255, 204, 109);
+    background-color: rgb(255, 204, 109);
+    transform: scale(0.98);
+    transition-duration: 0.2s;
+}
+
+.main-navbar{
+    width: 100%;
+
+    display: none;
+  
+}
+
+.main-navbar-itens{
+    width: 12%;
+    padding-block: 5px;
+
+    text-align: center;
+}
+
+#consultas{
+    color: rgb(72, 145, 255);
+}
+
+
+
+@media(max-width: 1050px){
+    main{
+        padding: 10px 3vw 10px 3vw;
+    }
+
+    .data-consulta{
+        font-size: 22px;
+        margin-block: 15px;
+    }
+
+    .bloco-contatos-pacientes{
+        width: 43vw;
+        height: 18vh;
+        margin-block: 20px;
+        padding: 10px 20px 10px 20px;
+    
+        justify-content: space-around;
+    }
+
+    .info-pacientes-nome{
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .ligacao-paciente button{
+        
+        border-radius: 5px;
+    
+        font-size: 18px;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    
+        padding: 10px 3vw 10px 3vw; 
+
+        font-size: 25px;
+    }
+}
+
+
+@media(max-width: 850px){
+    main{
+        padding: 10px 3vw 10px 3vw;
+    }
+
+    .data-consulta{
+        font-size: 22px;
+        margin-block: 12px;
+    }
+
+    .bloco-contatos-pacientes{
+        width: 43vw;
+        height: 18vh;
+        margin-block: 18px;
+        padding: 10px 20px 10px 20px;
+    
+        justify-content: space-around;
+    }
+
+    .info-pacientes-nome{
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .ligacao-paciente button{
+        padding: 8px;
+
+        border-radius: 5px;
+    
+        font-size: 12px;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    
+        padding: 10px 3vw 10px 3vw; 
+
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 500px){
+    main{
+        padding: 10px 3vw 10px 3vw;
+    }
+
+    .data-consulta{
+        font-size: 20px;
+        margin-block: 12px;
+    }
+
+    .bloco-contatos-pacientes{
+        width: 94vw;
+        height: 22vh;
+        margin-block: 18px;
+        padding: 5px 10px 5px 10px;
+    
+        justify-content: space-around;
+    }
+
+    .info-pacientes-nome{
+        line-height: 1.5;
+        font-size: 17px;
+    }
+
+    .ligacao-paciente button{
+        padding: 12px;
+
+        border-radius: 5px;
+    
+        font-size: 14px;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    
+        padding: 10px 3vw 10px 3vw; 
+
+        font-size: 14px;
+    }
+
+    .main-navbar-img{
+        margin-left: 8px;
+    }
+
+    #main-navbar-img2, #main-navbar-img1{
+        margin-left: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
