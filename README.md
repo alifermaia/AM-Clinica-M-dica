@@ -1,2 +1,2 @@
 Link do site: 
-amclinica.netlify.app
+https://amclinica.netlify.app
