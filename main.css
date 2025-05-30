@@ -252,14 +252,14 @@ span img{
     }
 
     .data-consulta{
-        font-size: 20px;
-        margin-block: 12px;
+        font-size: 17px;
+        margin-block: 8px;
     }
 
     .bloco-contatos-pacientes{
         width: 94vw;
-        height: 22vh;
-        margin-block: 18px;
+        height: 28vh;
+        margin-block: 8px;
         padding: 5px 10px 5px 10px;
     
         justify-content: space-around;
