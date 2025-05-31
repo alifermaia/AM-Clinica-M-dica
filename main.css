@@ -309,6 +309,11 @@ span{
     }
 }
 
+@media(max-height: 800px){
+    .bloco-contatos-pacientes{
+        height: 40vh;
+    }
+}
 
 
 
