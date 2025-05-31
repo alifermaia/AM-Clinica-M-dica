@@ -162,6 +162,7 @@ span{
 
 
 
+
 @media(max-width: 1050px){
     main{
         padding: 10px 3vw 10px 3vw;
@@ -174,7 +175,7 @@ span{
 
     .bloco-contatos-pacientes{
         width: 43vw;
-        height: 30vh;
+        height: 20vh;
         margin-block: 20px;
         padding: 10px 20px 10px 20px;
     
@@ -218,7 +219,7 @@ span{
 
     .bloco-contatos-pacientes{
         width: 43vw;
-        height: 26vh;
+        height: 20vh;
         margin-block: 18px;
         padding: 10px 20px 10px 20px;
     
@@ -307,6 +308,13 @@ span{
     #main-navbar-img2, #main-navbar-img1{
         margin-left: 18px;
     }
+}
+
+
+@media (max-width: 1000px) and (max-height: 500px){
+        .bloco-contatos-pacientes{
+            height: 50vh;
+        }
 }
 
 
