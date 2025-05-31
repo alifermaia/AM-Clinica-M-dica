@@ -78,6 +78,10 @@ span img{
     margin-right: 5px;
 }
 
+span{
+    color: var(--cinzafonte);
+}
+
 .ligacao-paciente{
     display: flex;
     justify-content: space-between;
@@ -86,7 +90,7 @@ span img{
 
 
 .ligacao-paciente button{
-    padding: 15px;
+    padding: 3%;
     border-radius: 5px;
 
     font-size: 15px;
@@ -170,7 +174,7 @@ span img{
 
     .bloco-contatos-pacientes{
         width: 43vw;
-        height: 18vh;
+        height: 30vh;
         margin-block: 20px;
         padding: 10px 20px 10px 20px;
     
@@ -208,13 +212,13 @@ span img{
     }
 
     .data-consulta{
-        font-size: 22px;
+        font-size: 18px;
         margin-block: 12px;
     }
 
     .bloco-contatos-pacientes{
         width: 43vw;
-        height: 18vh;
+        height: 26vh;
         margin-block: 18px;
         padding: 10px 20px 10px 20px;
     
@@ -223,11 +227,19 @@ span img{
 
     .info-pacientes-nome{
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 15px;
+    }
+    
+
+    span {
+        font-size: 12px;
+    }
+
+    .horario-consulta{
+        font-size: 13px;
     }
 
     .ligacao-paciente button{
-        padding: 8px;
 
         border-radius: 5px;
     
@@ -246,7 +258,7 @@ span img{
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
     main{
         padding: 10px 3vw 10px 3vw;
     }
@@ -271,7 +283,6 @@ span img{
     }
 
     .ligacao-paciente button{
-        padding: 12px;
 
         border-radius: 5px;
     
